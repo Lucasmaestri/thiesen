@@ -1,0 +1,38 @@
+
+.l-header {
+    
+    &__min {
+        background: #D1A154;
+    }
+    &__contact {
+        
+        a {
+            text-decoration: none;
+            color: #000;
+            padding:15px;
+
+            img {
+                padding-right: 15px;
+            }
+        }
+    }
+
+    &__icon {
+
+        a {
+            padding-left: 11px;
+        }
+    }
+    &__hero {
+        background: #333333;
+        color: #fff;
+
+        .nav-link {
+            color: #fff;
+
+            .triggered {
+                color: #D1A154;
+            }
+        }
+    }
+}
